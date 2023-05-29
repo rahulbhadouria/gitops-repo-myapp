@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../base/
 images:
-- digest: sha256:920985b142a3a2ba97194f0ddb7bcab43498de9b5ff3631f0cf4e6ecc174abea
+- digest: test
   name: dotnet-6.0
-  newName: quay.io/narendragomte/sample-app
+  newName: image-registry.openshift-image-registry.svc:5000/dotnet-myapp/sample-app-2
