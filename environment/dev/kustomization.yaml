@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../base/
 images:
-- digest: sha256:6e609ba60f4a0990d90fd452c5738c3ec3f2cae85c58986389842650db92d560
+- digest: sha256:47a746b9ecb97d4e1cd7c9f1a90b5c3df02648bf8b77cbfe2f2ddbb0ccfe50ed
   name: dotnet-6.0
-  newName: quay.io/narendragomte/sample-app
+  newName: quay.io/rahulbhadouria/mywebapp
